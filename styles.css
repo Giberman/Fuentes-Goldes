@@ -1,0 +1,537 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+	border-bottom: 1px solid white;
+}
+.navbar img {
+	width: 130px;
+	border-radius: 10%;
+}
+
+.nav-item {
+	padding: 0px 0px 0px 20px;
+}
+
+.toggle_menu, .vertical_nav{
+	display:none;
+}
+
+#carouselExampleDark {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 25%;
+	width: 46%;
+	border: #1c252b 1.5px solid;
+	border-radius: 5%;
+}
+
+#carouselExampleDark img {
+	border-radius: 5%;
+}
+
+.carousel-inner {
+	border-radius: 5%;
+
+}
+
+.main {
+float: left;
+background-color:darkslategrey;
+padding-right: 10%;
+}
+
+.main .carousel {
+	float:left;
+	width: 60%;
+}
+
+
+.main h5{
+	text-align: left;
+	color: white;
+    width: 100%;
+}
+
+.main hr {
+	border:1px solid white;
+}
+
+.bg-dark {
+	width: 100%;
+	float: left;
+	border-top: 1px solid white;
+}
+
+.aguam img{
+	width: 30%;
+	border-radius: 5%;
+}
+.aguam, .molderia, .bustos, .lamparas, .fdedise, .clasica{
+	background-color:darkslategrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.bustos img{
+	width: 30%;
+	border-radius: 5%;
+}
+
+
+.lamparas img{
+	width: 30%;
+	border-radius: 5%;
+}
+
+
+.molderia img{
+	width: 35%;
+	border-radius: 5%;
+}
+
+
+.budas img, .esferas img{
+	width: 50%;
+	border-radius: 5%;
+}
+.budas, .esferas{
+	width: 50%;
+	float: left;
+	background-color:darkslategrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+
+.fig1 img, .fig2 img{
+	width: 50%;
+	border-radius: 5%;
+}
+.fig1, .fig2{
+	width: 50%;
+	float: left;
+	background-color:darkslategrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+
+.pared1, .pared2{
+	width: 50%;
+	float: left;
+	background-color:darkslategrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.pared1 img, .pared2 img{
+	width: 50%;
+	border-radius: 5%;
+}
+
+.cate, .ice{
+	width: 50%;
+	float: left;
+	background-color:darkslategrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.cate img, .ice img{
+	width: 50%;
+	border-radius: 5%;
+}
+
+.geo1, .geo2{
+	width: 50%;
+	float: left;
+	background-color:darkslategrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.geo1 img, .geo2 img{
+	width: 50%;
+	border-radius: 5%;
+}
+
+.fdedise img{
+	width: 30%;
+	border-radius: 5%;
+}
+
+.decobuda1, .decobuda2{
+	width: 50%;
+	float: left;
+	background-color:darkslategrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.decobuda1 img, .decobuda2 img{
+	width: 50%;
+	border-radius: 5%;
+}
+
+.relieves1, .relieves2{
+	width: 50%;
+	float: left;
+	background-color:darkslategrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.relieves1 img, .relieves2 img{
+	width: 50%;
+	border-radius: 5%;
+}
+
+.clasica img{
+	width: 30%;
+	border-radius: 5%;
+}
+
+.contacto {
+	display: grid;
+    place-content: center;
+	background-color:darkslategrey;
+	padding-top: 2%;
+	color: white;
+}
+
+.form-group{
+    display: grid;
+    place-content: center;
+    text-align: center;
+	background-color:darkslategrey;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.form-group-btn{
+	padding-top: 0;
+}
+
+.datos .form-control {
+
+margin-left: 23%;
+	width: 55%;
+}
+
+label {
+	color: white;
+}
+
+textarea {
+	resize: none;
+  }
+
+.requerido {
+	color:burlywood;
+}
+
+img.btn-whatsapp {
+	cursor: pointer;
+	border-radius:100px !important;
+	}
+	img.btn-whatsapp:hover{
+	border-radius:100px !important;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
+	-moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+	box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+	transition-duration: 1s;
+	} 
+
+@media only screen and (max-width: 992px) {
+	
+	header {
+		width: 100%;
+		float: left;
+		display: flex;
+		justify-content: center;
+	}
+
+	.navbar {
+		
+	float: left;
+		width: 100%;
+		border: 0;
+	}
+
+	.navbar img {
+		width: 55px;
+		height: 40px;
+		
+}
+
+ .logo{
+	position: absolute;
+	width: 93%;
+	text-align: right;
+	
+}
+
+#navbarNavDropdown {
+	display: none;
+}
+
+.navbar .titulo{
+float: left;
+width: 100%;	
+text-align: left;	
+font-size: x-large;
+	}
+
+	.main h5{
+		display: block;
+		float: right;
+		width: 100%;
+		font-size:medium;
+		margin-top: -10px;
+	}
+
+	.main {
+		text-align: center;
+		background-color:darkslategrey;
+		padding-left: 7%;
+		padding-right: 7%;
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
+		
+	.main .carousel, #carouselExampleDark{
+		z-index: 0;
+		margin-left: auto;
+  		margin-right: auto;
+		width: 100%;		
+}
+
+#carouselExampleDark{
+margin-left: 14%;
+	width: 70%;
+}
+
+
+	.collapse_menu .collapse_menu--icon,.vertical_nav{
+		-moz-transition:all .3s ease-out;
+		-webkit-transition:all .3s ease-out;
+		transition:all .3s ease-out;
+	}
+
+	*
+	{
+		box-sizing:border-box;
+	}
+
+	.toggle_menu, .vertical_nav{
+		display:block;
+	}
+
+
+	:active,:focus{
+		outline:0;
+	}
+		.toggle_menu{
+			display:block;
+			width:53px;
+			height:53px;
+			line-height:53px;
+			background:#2c2f30;
+			color: white;
+			padding:3;
+			border:0;
+			text-align:center;
+			cursor:pointer;
+		}
+		.toggle_menu i{
+			display:block;
+			font-size:25px;
+		}
+		.vertical_nav{
+			position:absolute;
+			z-index:1;
+			left:-200px;
+			top:53px;
+			bottom:36.7%;
+			width:200px;
+			background:rgb(29, 34, 37);
+		}
+		.vertical_nav__closed{
+			left:-200px!important;
+		}
+		.vertical_nav__opened{
+			left:0!important;
+			box-shadow:rgba(0,0,0,.4)-30px 0 30px 30px;
+		}
+		.menu{
+			position:absolute;
+			top:0px;
+			bottom:0px;
+			overflow-y:auto;
+			width:100%;
+			margin:0;
+			padding:0;
+			list-style-type:none;
+		}
+		.menu--item{
+			position:relative;
+			min-height:40px;
+			line-height:40px;
+		}
+		.menu--item__has_sub_menu .menu--link:after{
+			position:absolute;
+			top:0;
+			right:15px;
+			height:40px;
+			line-height:40px;
+			font-family:FontAwesome;
+			content:"\f0d7";
+		}
+		.menu--subitens__opened{
+			background:#e9e9e9;
+
+		}
+		.menu--subitens__opened .menu--link{
+			color:#000;
+		}
+			.menu--subitens__opened .sub_menu{
+				display:block;
+			}
+			.menu--link{
+				display:block;
+				overflow:hidden;
+				font-size:.875rem;
+				text-decoration:none;
+				color:#666;
+				font-weight:400;
+				white-space:nowrap;
+				cursor:pointer;
+			}
+			.menu--link:hover, .menu--link:hover .menu--label{
+				color:#000;
+				background:#ddd;
+
+			}
+			
+			 .menu--label{
+				float: left;
+				padding-left: 15px;
+				
+			}
+		
+			.sub_menu{
+				display:none;
+				overflow:hidden;
+				padding-left:0;
+				list-style:none;
+			}
+			.sub_menu--link{
+				display:block;
+				padding-left:50px;
+				padding-right:16px;
+				font-size:.875rem;
+				color:#666;
+				text-decoration:none;
+			}
+			.sub_menu--link:hover{
+				color:#000;
+				background:#ddd;
+
+			}
+			.sub_menu--link__active{
+				color:#000;
+				font-weight:500;
+			}
+			.collapse_menu{
+				display:none;
+			}
+
+
+			.aguam img, .bustos img, .lamparas img, .molderia img, .fdedise img, .clasica img{
+				width: 80%;
+				border-radius: 5%;
+				padding-top: 3%;
+				padding-bottom: 3%;
+			}
+
+			.budas img, .esferas img, .fig1 img, .fig2 img, .pared1 img, .pared2 img, .cate img, .ice img, .geo1 img, .geo2 img, .decobuda1 img, .decobuda2 img, .relieves1 img, .relieves2 img{
+				width: 90%;
+				border-radius: 5%;
+			}
+
+			.budas, .esferas, .fig1, .fig2, .pared1, .pared2, .cate, .ice, .geo1, .geo2, .decobuda1, .decobuda2, .relieves1, .relieves2{
+				width: 100%;
+				float: left;
+				background-color:darkslategrey;
+				text-align: center;
+				padding-top: 3%;
+				padding-bottom: 3%;
+			}
+			img.btn-whatsapp {
+				cursor: pointer;
+				border-radius:100px !important;
+				}
+				img.btn-whatsapp:hover{
+				border-radius:100px !important;
+				-webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
+				-moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+				box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+				transition-duration: 1s;
+				} 
+
+				.contacto {
+					width: 100%;
+					display: grid;
+					place-content: center;
+					background-color:darkslategrey;
+					padding-top: 4%;
+					color: white;
+				}
+				
+				.form-group{
+					width: 100%;
+					display: grid;
+					place-content: center;
+					text-align: center;
+					background-color:darkslategrey;
+					padding-top: 2%;
+					padding-bottom: 4%;
+				}
+				
+				.form-group-btn{
+					padding-top: 0;
+				}
+				
+				.datos .form-control {
+				margin-left: 23%;
+					width: 55%;
+				}
+				
+				label {
+					color: white;
+				}
+
+				.ta{
+					margin-left: 15%;
+					margin-right: 15%;
+				}
+				
+				textarea {
+					resize: none;
+				  }
+				
+				.requerido {
+					color:burlywood;
+				}
+
+	}
