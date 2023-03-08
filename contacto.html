@@ -174,20 +174,20 @@
 </div>
 
 </div>
-<form name="formulario" method="post" action="">
+<form name="formulario" method="post" action="contacto.php">
     <div class="form-group">
         <div class="datos">
         <label for="nombre">Nombre</label><label class="requerido">*</label>
-        <input type="text" class="form-control" placeholder="Nombre" id="nombre" required>
+        <input type="text" name="nombre" class="form-control" placeholder="Nombre" id="nombre" required>
         <br>
         <label for="apellido">Apellido</label><label class="requerido">*</label>
-        <input type="text" class="form-control" placeholder="Apellido" id="apellido" required>
+        <input type="text" name="apellido" class="form-control" placeholder="Apellido" id="apellido" required>
         <br>
         <label for="email">Email</label><label class="requerido">*</label>
-        <input type="email" class="form-control" placeholder="Email" id="email" required>
+        <input type="email" name="email" class="form-control" placeholder="Email" id="email" required>
         <br>
     </div>
-       <div class="ta"> <label>Comentarios<textarea rows="6" cols="66" class="form-control" id="comentarios"></textarea></label>
+       <div class="ta"> <label>Comentarios<textarea rows="6" cols="66" name="comentario" class="form-control" id="comentarios"></textarea></label>
         </div>
     </div>
 </div>
