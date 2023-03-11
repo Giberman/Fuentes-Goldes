@@ -1,7 +1,9 @@
-* {
-    box-sizing: border-box;
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
+  
 .navbar {
 	border-bottom: 1px solid white;
 }
@@ -10,8 +12,12 @@
 	border-radius: 10%;
 }
 
+.titulo {
+	font-size:xx-large;
+}
+
 .nav-item {
-	padding: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 10px;
 }
 
 .toggle_menu, .vertical_nav{
@@ -19,8 +25,8 @@
 }
 
 #carouselExampleDark {
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 7%;
+	margin-bottom: 4%;
 	margin-left: 25%;
 	width: 46%;
 	border: #1c252b 1.5px solid;
@@ -40,6 +46,7 @@
 float: left;
 background-color:darkslategrey;
 padding-right: 10%;
+min-height: 63.9vh;
 }
 
 .main .carousel {
@@ -47,9 +54,12 @@ padding-right: 10%;
 	width: 60%;
 }
 
+.main .descripcion {
+	padding-top: 10%;
+}
 
 .main h5{
-	text-align: left;
+	text-align: center;
 	color: white;
     width: 100%;
 }
@@ -76,7 +86,7 @@ padding-right: 10%;
 }
 
 .bustos img{
-	width: 30%;
+	width: 38.5%;
 	border-radius: 5%;
 }
 
@@ -88,13 +98,13 @@ padding-right: 10%;
 
 
 .molderia img{
-	width: 35%;
+	width: 43.5%;
 	border-radius: 5%;
 }
 
 
 .budas img, .esferas img{
-	width: 50%;
+	width: 72%;
 	border-radius: 5%;
 }
 .budas, .esferas{
@@ -108,7 +118,7 @@ padding-right: 10%;
 
 
 .fig1 img, .fig2 img{
-	width: 50%;
+	width: 72%;
 	border-radius: 5%;
 }
 .fig1, .fig2{
@@ -131,7 +141,7 @@ padding-right: 10%;
 }
 
 .pared1 img, .pared2 img{
-	width: 50%;
+	width: 72%;
 	border-radius: 5%;
 }
 
@@ -145,7 +155,7 @@ padding-right: 10%;
 }
 
 .cate img, .ice img{
-	width: 50%;
+	width: 72%;
 	border-radius: 5%;
 }
 
@@ -159,12 +169,12 @@ padding-right: 10%;
 }
 
 .geo1 img, .geo2 img{
-	width: 50%;
+	width: 72%;
 	border-radius: 5%;
 }
 
 .fdedise img{
-	width: 30%;
+	width: 36%;
 	border-radius: 5%;
 }
 
@@ -178,7 +188,7 @@ padding-right: 10%;
 }
 
 .decobuda1 img, .decobuda2 img{
-	width: 50%;
+	width: 72%;
 	border-radius: 5%;
 }
 
@@ -192,7 +202,7 @@ padding-right: 10%;
 }
 
 .relieves1 img, .relieves2 img{
-	width: 50%;
+	width: 72%;
 	border-radius: 5%;
 }
 
