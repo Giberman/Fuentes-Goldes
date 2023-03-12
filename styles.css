@@ -386,7 +386,7 @@ margin-bottom: 5%;
 			z-index:1;
 			left:-200px;
 			top:53px;
-			bottom:21.5%;
+			bottom: 0;
 			width:200px;
 			background:rgb(29, 34, 37);
 		}
